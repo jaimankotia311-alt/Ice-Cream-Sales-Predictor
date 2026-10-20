@@ -1,5 +1,5 @@
-import streamlit as st
 import joblib
+import streamlit as st
 
 model = joblib.load(r"C:\Users\Jay Mankotia\Desktop\AI ML\04 Ice Cream PLR\plr.joblib")
 poly = joblib.load(r"C:\Users\Jay Mankotia\Desktop\AI ML\04 Ice Cream PLR\poly.joblib")
