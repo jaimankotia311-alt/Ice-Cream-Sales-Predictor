@@ -1,8 +1,8 @@
 import joblib
 import streamlit as st
 
-model = joblib.load(r"C:\Users\Jay Mankotia\Desktop\AI ML\04 Ice Cream PLR\plr.joblib")
-poly = joblib.load(r"C:\Users\Jay Mankotia\Desktop\AI ML\04 Ice Cream PLR\poly.joblib")
+model = joblib.load("plr.joblib")
+poly = joblib.load("poly.joblib")
 
 st.title("ICE CREAM SALE PREDICTOR")
 st.markdown("# 🍦 Ice Cream Sales Predictor")
